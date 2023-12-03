@@ -1,0 +1,13 @@
+
+logging:
+  level:
+    root: INFO
+    org:
+      apache:
+        coyote:
+          http11:
+            Http11InputBuffer: DEBUG
+
+  file:
+    name: logs/pingPong.log
+
